@@ -35,7 +35,7 @@ The notebook generates and saves the following figures (referenced in the disser
 |---|---|---|
 | Inline (EDA figure) | Class distribution + transaction amount histogram | Ch. 3.1, Figure 3.1 |
 | Inline (pipeline diagram) | End-to-end pipeline flow diagram | Ch. 3.2, Figure 3.2 |
-| — | Model comparison table (AUC, precision, recall, F1) | Ch. 3.4 / Ch. 4.1, Table 4.1 |
+| | Model comparison table (AUC, precision, recall, F1) | Ch. 3.4 / Ch. 4.1, Table 4.1 |
 | `fig_roc.png` | ROC curves for all six models | Ch. 4.1, Figure 4.1 |
 | `fig_pr.png` | Precision–Recall curves for all six models | Ch. 4.1, Figure 4.2 |
 | Inline (confusion matrices) | 2×3 grid of confusion matrices | Ch. 4.1, Figure 4.3 |
@@ -44,4 +44,4 @@ The notebook generates and saves the following figures (referenced in the disser
 ## Notes
 
 - Random seed (`RANDOM_STATE`) is fixed for reproducibility across all splits and models.
-- Results are generated directly from the real dataset — none of the figures or metrics are fabricated.
+- Results are generated directly from the real dataset none of the figures or metrics are fabricated.
