@@ -1,10 +1,10 @@
-# AI-Driven Fraud Detection — Experiments Notebook
+# AI-Driven Fraud Detection: Experiments Notebook
 
 Colab notebook that trains and evaluates six machine learning models for credit card fraud detection, supporting Chapters 3 and 4 of the dissertation *"AI-Driven Fraud Detection in Banking Using Supervised & Unsupervised ML"*.
 
 ## What it does
 
-Runs six models — Logistic Regression, Random Forest, XGBoost, MLP, Isolation Forest, and Autoencoder — on the Kaggle Credit Card Fraud Detection dataset, then evaluates and explains their performance.
+Runs six models: Logistic Regression, Random Forest, XGBoost, MLP, Isolation Forest, and Autoencoder on the Kaggle Credit Card Fraud Detection dataset, then evaluates and explains their performance.
 
 ## Requirements
 
@@ -17,7 +17,7 @@ Runs six models — Logistic Regression, Random Forest, XGBoost, MLP, Isolation 
 1. Open the notebook in Google Colab.
 2. Run the dependency install cell (`!pip install xgboost shap imbalanced-learn`).
 3. Run the upload cell and select `creditcard.csv` when prompted.
-   - Alternative: mount Google Drive and point `DATA_PATH` at the file instead of uploading each time.
+ -Alternative: mount Google Drive and point `DATA_PATH` at the file instead of uploading each time.
 4. Run all remaining cells in order, top to bottom.
 
 ## Pipeline
